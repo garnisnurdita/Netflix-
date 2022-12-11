@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
-  flex-direction: column;
+}
+
+.topheader {
+  height: 68px;
+  padding: 0 40px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.7) 10%,
+    transparent
+  );
+}
+
+.topnav {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.navbtn {
+  color: #e5e5e5;
+  font-size: 15px;
+  margin-left: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.mainapp {
+  background-image: url("../public/foto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movie {
+  width: 360px;
+}
+
+.sinopsis {
+  color: #ffffff;
+  font-size: 12px;
+
+  text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+  margin: 12px 0 15px;
+}
+.btnmovie {
+  font-size: 14px;
+  margin-right: 8px;
+  padding: 21px 7px 17px;
+  border-radius: 4px;
+}
+.btnplay {
+  color: black;
+  background-color: #ffffff;
+}
+
+.btninfo {
+  color: #ffffff;
+  background-color: rgba(109, 109, 110, 0.7);
+}
+.movie {
+  width: 25%;
+  padding: 0 2px;
+}
+
+.movieslide {
+  padding: 0 40px;
+}
+
+.movierowheader {
+  font-size: 15px;
+  color: #e5e5e5;
+  margin: 50px 0 5px;
 }
